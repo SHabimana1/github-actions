@@ -31,8 +31,7 @@ jobs:
               uses: actions/upload-artifact@v4
               with:
                 name: my-file
-                path: github-actions.txt
-            
+                           
 
     build_job:
         needs: 
